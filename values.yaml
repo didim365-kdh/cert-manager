@@ -13,8 +13,8 @@
 global:
   imageRegistry: ""
   imagePullSecrets: []
-  defaultStorageClass: ""
-  storageClass: ""
+  defaultStorageClass: "ktc-nfs-client"
+  storageClass: "ktc-nfs-client"
   ## Security parameters
   ##
   security:
